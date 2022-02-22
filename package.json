@@ -1,0 +1,25 @@
+{
+  "name": "ast-starter",
+  "version": "1.0.0",
+  "description": "learning ast",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaptainOfPhB/ast-starter.git"
+  },
+  "author": "CaptainOfPhB <captainophb@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaptainOfPhB/ast-starter/issues"
+  },
+  "homepage": "https://github.com/CaptainOfPhB/ast-starter#readme",
+  "dependencies": {
+    "@babel/generator": "^7.17.3",
+    "@babel/parser": "^7.17.3",
+    "@babel/traverse": "^7.17.3",
+    "@babel/types": "^7.17.0"
+  }
+}
