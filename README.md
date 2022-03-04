@@ -1,4 +1,4 @@
-# Enhance Your Console
+# Enhance Console Method
 
 Use `babel` to insert extra row position information into the console method.
 
