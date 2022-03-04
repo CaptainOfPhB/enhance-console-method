@@ -23,7 +23,7 @@ function fn(){
 pnpm install
 ```
 
-2. Build target code in `build.js` file.
+2. Build target code to `build.js` file.
 
 ```bash
 pnpm start
