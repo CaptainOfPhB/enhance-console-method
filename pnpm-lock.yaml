@@ -3,14 +3,22 @@ lockfileVersion: 5.3
 specifiers:
   '@babel/generator': ^7.17.3
   '@babel/parser': ^7.17.3
+  '@babel/template': ^7.16.7
   '@babel/traverse': ^7.17.3
   '@babel/types': ^7.17.0
+  '@types/babel-generator': ^6.25.5
+  '@types/babel-template': ^6.25.2
+  '@types/babel-traverse': ^6.25.7
 
 dependencies:
   '@babel/generator': 7.17.3
   '@babel/parser': 7.17.3
+  '@babel/template': 7.16.7
   '@babel/traverse': 7.17.3
   '@babel/types': 7.17.0
+  '@types/babel-generator': 6.25.5
+  '@types/babel-template': 6.25.2
+  '@types/babel-traverse': 6.25.7
 
 packages:
 
@@ -120,6 +128,35 @@ packages:
     dependencies:
       '@babel/helper-validator-identifier': 7.16.7
       to-fast-properties: 2.0.0
+    dev: false
+
+  /@types/babel-generator/6.25.5:
+    resolution: {integrity: sha512-lhbwMlAy5rfWG+R6l8aPtJdEFX/kcv6LMFIuvUb0i89ehqgD24je9YcB+0fRspQhgJGlEsUImxpw4pQeKS/+8Q==}
+    dependencies:
+      '@types/babel-types': 7.0.11
+    dev: false
+
+  /@types/babel-template/6.25.2:
+    resolution: {integrity: sha512-QKtDQRJmAz3Y1HSxfMl0syIHebMc/NnOeH/8qeD0zjgU2juD0uyC922biMxCy5xjTNvHinigML2l8kxE8eEBmw==}
+    dependencies:
+      '@types/babel-types': 7.0.11
+      '@types/babylon': 6.16.6
+    dev: false
+
+  /@types/babel-traverse/6.25.7:
+    resolution: {integrity: sha512-BeQiEGLnVzypzBdsexEpZAHUx+WucOMXW6srEWDkl4SegBlaCy+iBvRO+4vz6EZ+BNQg22G4MCdDdvZxf+jW5A==}
+    dependencies:
+      '@types/babel-types': 7.0.11
+    dev: false
+
+  /@types/babel-types/7.0.11:
+    resolution: {integrity: sha512-pkPtJUUY+Vwv6B1inAz55rQvivClHJxc9aVEPPmaq2cbyeMLCiDpbKpcKyX4LAwpNGi+SHBv0tHv6+0gXv0P2A==}
+    dev: false
+
+  /@types/babylon/6.16.6:
+    resolution: {integrity: sha512-G4yqdVlhr6YhzLXFKy5F7HtRBU8Y23+iWy7UKthMq/OSQnL1hbsoeXESQ2LY8zEDlknipDG3nRGhUC9tkwvy/w==}
+    dependencies:
+      '@types/babel-types': 7.0.11
     dev: false
 
   /ansi-styles/3.2.1:

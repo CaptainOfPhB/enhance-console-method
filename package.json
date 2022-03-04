@@ -4,7 +4,8 @@
   "description": "learning ast",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "node build.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,11 @@
   "dependencies": {
     "@babel/generator": "^7.17.3",
     "@babel/parser": "^7.17.3",
+    "@babel/template": "^7.16.7",
     "@babel/traverse": "^7.17.3",
-    "@babel/types": "^7.17.0"
+    "@babel/types": "^7.17.0",
+    "@types/babel-generator": "^6.25.5",
+    "@types/babel-template": "^6.25.2",
+    "@types/babel-traverse": "^6.25.7"
   }
 }

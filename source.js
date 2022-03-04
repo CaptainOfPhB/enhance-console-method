@@ -1,10 +1,12 @@
 console.log(1);
 
-function func() {
+function fn() {
   console.info(2);
 }
 
-export default class Clazz {
+fn();
+
+class MyClass {
   say() {
     console.debug(3);
   }
