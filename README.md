@@ -14,3 +14,17 @@ function fn(){
   console.log(123)
 }
 ```
+
+## Guidance
+
+1. Install dependency.
+
+```bash
+pnpm install
+```
+
+2. Build target code in `build.js` file.
+
+```bash
+pnpm start
+```
